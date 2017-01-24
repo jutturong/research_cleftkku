@@ -11,21 +11,25 @@
     <link rel='shortcut icon' type='image/x-icon' href='favicon.ico' />
     <title>ศูนย์วิจัยผู้ป่วยปากแหว่ง เพดานโหว่ฯ มหาวิทยาลัยขอนแก่น</title>
 
-    <link href="<?=base_url()?>css/metro.css" rel="stylesheet">
-    <link href="<?=base_url()?>css/metro-icons.css" rel="stylesheet">
-    <link href="<?=base_url()?>css/metro-responsive.css" rel="stylesheet">
-    <link href="<?=base_url()?>css/metro-schemes.css" rel="stylesheet">
 
-    <link href="<?=base_url()?>css/docs.css" rel="stylesheet">
+    <link href="css/metro.css" rel="stylesheet">
+    <link href="css/metro-icons.css" rel="stylesheet">
+    <link href="css/metro-responsive.css" rel="stylesheet">
+    <link href="css/metro-schemes.css" rel="stylesheet">
 
-    <script src="<?=base_url()?>js/jquery-2.1.3.min.js"></script>
+    <link href="css/docs.css" rel="stylesheet">
+
+    <script src="js/jquery-2.1.3.min.js"></script>
     <!--<script src="js/jquery-3.1.0.min.js"></script>-->
-    <script src="<?=base_url()?>js/metro.js"></script>
-    <script src="<?=base_url()?>js/docs.js"></script>
+    <script src="js/metro.js"></script>
+    <script src="js/docs.js"></script>
     <script src="//cdn.rawgit.com/google/code-prettify/master/loader/run_prettify.js"></script>
-    <script src="<?=base_url()?>js/ga.js"></script>
+    <script src="js/ga.js"></script>
 
     <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+    
+    
+    
 
     <style>
         @media screen and (max-width: 640px) {
@@ -34,6 +38,7 @@
             }
         }
     </style>
+    
 
 </head>
 <body>
@@ -41,12 +46,43 @@
         <div class="bg-lightBlue fg-white align-center">
             <div class="container">
                 <div class="no-overflow" style="padding-top: 40px">
+                    
+    
 
-                    @@adsense
+                    
+                    
+                    
+      <script>
+$(function(){
+$(".carousel").carousel({
 
+
+             });
+
+
+});
+</script>   
+
+
+    <div class="carousel" data-role="carousel">
+                               <div class="carousel">
+                                             <div class="slide"><img src="picture/DSC_0149.JPG" ></div>
+                                             <div class="slide"><img src="picture/DSC_0115.JPG" ></div>
+                                             <div class="slide"><img src="picture/DSC_0472.JPG" ></div>
+                                             
+                                             
+    
+                               </div>
+        
+    
+    </div>
+
+
+                    <!--
                     <br />
                     <br />
                     <br />
+
                     <h1 style="font-size: 4.5rem; line-height: 1" class="text-shadow metro-title text-light">Metro UI CSS 3.0</h1>
                     <div class="padding30 sub-leader text-light">
                         The front-end framework for developing projects on the web in Windows Metro Style
@@ -55,10 +91,12 @@
                         Metro UI CSS developed with the advice of Microsoft to build the user interface and include: general styles, grid, layouts, typography, 20+ components, 300+ built-in icons.
                         Metro UI CSS build with {LESS}. Metro UI CSS is open source and has MIT licensing model.
                     </p>
-
+                   
                     <div class="margin30 align-center leader">
                         The project is looking for sponsors!
                     </div>
+                     -->
+                    
 
                     <div class="margin60">
                         <div class="clear-float">

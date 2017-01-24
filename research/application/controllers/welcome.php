@@ -17,14 +17,16 @@ class Welcome extends CI_Controller {
 	 * map to /index.php/welcome/<method_name>
 	 * @see http://codeigniter.com/user_guide/general/urls.html
 	 */
+    
+            var  $title="ศูนย์วิจัยผู้ป่วยปากแหว่ง เพดานโหว่ฯ มหาวิทยาลัยขอนแก่น";
 	public function index()
 	{
-		
-            
-                                   // $this->load->view('docs/index');
-                                  //  $this->load->view('welcome_message');
-                                   // $this->load->view('docs/index');
-                                   $this->load->view('docs/main');
+
+                             //     $this->load->view('welcome_message');
+                            //   $this->load->view("docs/main");
+                                $data["title"]=$this->title;
+                                $this->load->view("main2",$data);
+                               
                                     
 	}
 }

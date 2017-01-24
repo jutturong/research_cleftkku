@@ -9,18 +9,22 @@
             <li>
                 <a href="#" class="dropdown-toggle">
                     
-                    
-                    <img src="<?=base_url()?>docs/images/wn8.png" style="height: 28px; display: inline-block; margin-right: 10px;">
-                    
+                    <!--
+                    <img src="<?=base_url()?>images/wn8.jpg" style="height: 28px; display: inline-block; margin-right: 10px;">
+                    -->
                     
                     <!--
                      <img src="images/access.png" style="height: 28px; display: inline-block; margin-right: 10px;">
                    -->
                     
+                   
+                   <i class="icon-rocket"></i>
                     
                    
                     
-                    Home (หน้าหลัก)</a>
+                    Home (หน้าหลัก) 11 </a>
+                
+                
                 <ul class="d-menu" data-role="dropdown" data-no-close="true">
                    <!-- <li class="disabled"><a href="overview.html">ข่าวประชาสัมพันธ์</a></li>-->
                     <li class="divider"><a href="overview.html">ข่าวประชาสัมพันธ์</a></li>
