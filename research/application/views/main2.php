@@ -3,8 +3,20 @@
 
     <head lang="en">
        
+        
        <?=$this->load->view("head_menu")?>
 
+        
+        
+  <!-- Compiled and minified CSS -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.8/css/materialize.min.css">
+
+  <!-- Compiled and minified JavaScript -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.8/js/materialize.min.js"></script>
+  
+  
+  
+  
 
 </head>
 
@@ -14,52 +26,10 @@
         <div class="bg-lightBlue fg-white align-center">
             <div class="container">
                 <div class="no-overflow" style="padding-top: 40px">
-                    
-    
-
-                    
-                    
-                    
-      <script>
-$(function(){
-$(".carousel").carousel({
-                auto: true,
-                period: 3000,
-                duration: 2000,
-                effect:'slowdown',
-                
-                  markers: {
-type: "square"
-}
-
-
-             });
-
-
-});
-</script>   
-
-
-    <div class="carousel" data-role="carousel">
-                              
-                              <div class="carousel">
-                                 
-                                  <img src="picture/DSC_0465.JPG" width="800"  />
-                                  
-                                             <div class="slide"><img src="picture/DSC_0149.JPG"  width="800"  /></div>
-                                             <div class="slide"><img src="picture/DSC_0115.JPG"  width="800" /></div>
-                                             <div class="slide"><img src="picture/DSC_0472.JPG" width="800"  /></div>
-                                              <div class="slide"> <img src="picture/DSC_0149.JPG"  width="800"  /></div>
-                                              <div class="slide"> <img src="picture/DSC_0079.JPG"  width="800"  /></div>
-                                              <div class="slide"> <img src="picture/DSC_0271.JPG"  width="800"  /></div>
-                                              
-                                              
-                               </div>
-        
-    
-    </div>
-
-
+                      
+                                <!--  side show  -->
+                                <?php  //$this->load->view("main_slide")?>
+                                <?=$this->load->view($file1)?>
 
 
                     <!--
@@ -90,12 +60,16 @@ type: "square"
                         </div>
                         <br />
                         <div class="align-center">
+                            
+                            <!--
                             <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
                                 <input type="hidden" name="cmd" value="_s-xclick">
                                 <input type="hidden" name="hosted_button_id" value="8JQAAX78EMT4E">
                                 <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
                                 <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
                             </form>
+                            -->
+                            
                         </div>
                     </div>
 
@@ -146,6 +120,8 @@ type: "square"
 
         <div class="fg-dark">
             <div class="container">
+                
+                
                 <div class="padding80" style="padding-top: 40px">
                     <div class="">
                         <div class="grid">
@@ -153,11 +129,23 @@ type: "square"
                                 <div class="cell no-phone">
                                     <div class="image-container bordered">
                                         <div class="frame">
-                                            <img src="images/whats-new.jpg">
+                                            
+                                            
+                                            
+                                            <img src="<?=base_url()?>images/whats-new.jpg">
+                                            
+                                            
+                                            <!--
+                                            <img src="picture/DSC_0269.JPG">
+                                            -->
+ 
+                                            
                                         </div>
                                     </div>
                                 </div>
                                 <div class="cell colspan2" style="padding-left: 20px">
+                                    
+                                  
                                     <h1 class="">Whats new in 3.0</h1>
                                     <ol class="numeric-list square-marker">
                                         <li>compatible with <strong>Angular<span class="fg-red">JS</span></strong> and <strong>Require<span class="fg-red">JS</span></strong></li>
@@ -170,21 +158,48 @@ type: "square"
                                     <p class="no-display">
                                     The main feature in version 3 is: a declarative approach to the definition and initialization of components, and the framework itself monitors components, pressure via ajax. When a declarative definition of all component parameters are set via data-* attributes, including methods and events of the component. This approach allows to further separate html and javascript code. Now that would determine which component do not need to know javascript :). It is still possible to determine which component directly via javascript.
                                     </p>
+                          
+                                    
+
                                 </div>
                             </div>
                         </div>
                     </div>
 
                     <div>
-                        @@adsense
+                       <!-- @@adsense -->
                     </div>
 
 
                     <br />
+                    
                     <hr class="thin" />
 
+                    
+                    <!--   content  -->
                     <div>
-                        <h1 class="margin40">Simple steps to create cool pages</h1>
+                        
+                        
+                        <h1 class="margin40">
+                            
+                            
+                            Simple steps to create cool pages
+                        
+                        
+                        </h1>
+                        
+                        
+                        
+                         <div class="carousel">
+    <a class="carousel-item" href="#one!"><img src="http://lorempixel.com/250/250/nature/1"></a>
+    <a class="carousel-item" href="#two!"><img src="http://lorempixel.com/250/250/nature/2"></a>
+    <a class="carousel-item" href="#three!"><img src="http://lorempixel.com/250/250/nature/3"></a>
+    <a class="carousel-item" href="#four!"><img src="http://lorempixel.com/250/250/nature/4"></a>
+    <a class="carousel-item" href="#five!"><img src="http://lorempixel.com/250/250/nature/5"></a>
+  </div>
+                        
+                        
+                        
                         <ul class="step-list">
                             <li>
                                 <h4>Create page with HTML5 DOCTYPE</h4>
@@ -231,6 +246,11 @@ type: "square"
                             </li>
                         </ul>
                     </div>
+                    
+                    <!--   content  -->
+                    
+                    
+                    
                 </div>
             </div>
         </div>

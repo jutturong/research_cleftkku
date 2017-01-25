@@ -11,19 +11,19 @@
     <title><?=$title?></title>
 
 
-    <link href="css/metro.css" rel="stylesheet">
-    <link href="css/metro-icons.css" rel="stylesheet">
-    <link href="css/metro-responsive.css" rel="stylesheet">
-    <link href="css/metro-schemes.css" rel="stylesheet">
+    <link href="<?=base_url()?>css/metro.css" rel="stylesheet">
+    <link href="<?=base_url()?>css/metro-icons.css" rel="stylesheet">
+    <link href="<?=base_url()?>css/metro-responsive.css" rel="stylesheet">
+    <link href="<?=base_url()?>css/metro-schemes.css" rel="stylesheet">
 
-    <link href="css/docs.css" rel="stylesheet">
+    <link href="<?=base_url()?>css/docs.css" rel="stylesheet">
 
-    <script src="js/jquery-2.1.3.min.js"></script>
+    <script src="<?=base_url()?>js/jquery-2.1.3.min.js"></script>
     <!--<script src="js/jquery-3.1.0.min.js"></script>-->
-    <script src="js/metro.js"></script>
-    <script src="js/docs.js"></script>
+    <script src="<?=base_url()?>js/metro.js"></script>
+    <script src="<?=base_url()?>js/docs.js"></script>
     <script src="//cdn.rawgit.com/google/code-prettify/master/loader/run_prettify.js"></script>
-    <script src="js/ga.js"></script>
+    <script src="<?=base_url()?>js/ga.js"></script>
 
     <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
     
@@ -54,7 +54,7 @@
 
                      
                     
-                    <img src="images/wn8.png" style="height: 28px; display: inline-block; margin-right: 10px;">
+                    <img src="<?=base_url()?>images/wn8.png" style="height: 28px; display: inline-block; margin-right: 10px;">
                  
 
                     <!--
@@ -335,7 +335,7 @@
             </li>
 
              <li>
-                <a href="#" >ติดต่อเรา</a>
+                <a href="<?=base_url()?>index.php/welcome/contactus"  >ติดต่อเรา</a>
 
                 <!--class="dropdown-toggle"
                 <ul class="d-menu" data-role="dropdown" data-no-close="true">

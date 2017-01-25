@@ -19,16 +19,32 @@ class Welcome extends CI_Controller {
 	 */
     
             var  $title="ศูนย์วิจัยผู้ป่วยปากแหว่ง เพดานโหว่ฯ มหาวิทยาลัยขอนแก่น";
-	public function index()
+	public function index()  //หน้าหลัก
 	{
 
                              //     $this->load->view('welcome_message');
                             //   $this->load->view("docs/main");
                                 $data["title"]=$this->title;
+                                
+                                  //   side show  
+                                 //$this->load->view("main_slide")
+                                $data["file1"]="main_slide";
                                 $this->load->view("main2",$data);
                                
                                     
 	}
+                public function contactus() //ติดต่อเรา
+                {
+                   // http://10.87.196.170/research/index.php/welcome/contactus
+                       $data["title"]=$this->title;
+                       $data["file1"]="contactus";
+                       $this->load->view("main2",$data);
+                       
+                }
+        
+        
+        
+        
 }
 
 /* End of file welcome.php */

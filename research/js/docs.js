@@ -14,13 +14,18 @@ var adBlock = false;
 jQuery(document).ready(function($){
     "use strict";
 
-    $("<div/>").load("header.html").insertBefore($(".page-content"));
+    //$("<div/>").load("header.html").insertBefore($(".page-content"));
+    /*
     $("<div/>").load("footer.html", function(){
         if (window.location.hostname == 'localhost') {
             $("div[data-text='sponsor']").remove();
         }
     }).insertAfter($(".page-content"));
+    */
+    
 });
+
+
 
 (function($){
     "use strict";
