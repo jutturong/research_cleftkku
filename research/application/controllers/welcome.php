@@ -29,6 +29,8 @@ class Welcome extends CI_Controller {
                                   //   side show  
                                  //$this->load->view("main_slide")
                                 $data["file1"]="main_slide";
+                                  $data["head_content1"]="หน้าหลัก";
+                                $data["content"]="Whats new in 3.0";
                                 $this->load->view("main2",$data);
                                
                                     
@@ -38,6 +40,10 @@ class Welcome extends CI_Controller {
                    // http://10.87.196.170/research/index.php/welcome/contactus
                        $data["title"]=$this->title;
                        $data["file1"]="contactus";
+                       
+                       $data["head_content1"]="ติดต่อเรา";
+                       $data["content"]="คณะแพทยศาสตร์ มหาวิทยาลัยขอนแก่น".br()."123  ถ.มิตรภาพ  ต.ในเมือง".br()."อ.เมืองขอนแก่น จ.ขอนแก่น 40002";
+                       
                        $this->load->view("main2",$data);
                        
                 }

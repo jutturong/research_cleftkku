@@ -146,6 +146,7 @@
                                 <div class="cell colspan2" style="padding-left: 20px">
                                     
                                   
+                                    <!--
                                     <h1 class="">Whats new in 3.0</h1>
                                     <ol class="numeric-list square-marker">
                                         <li>compatible with <strong>Angular<span class="fg-red">JS</span></strong> and <strong>Require<span class="fg-red">JS</span></strong></li>
@@ -158,6 +159,14 @@
                                     <p class="no-display">
                                     The main feature in version 3 is: a declarative approach to the definition and initialization of components, and the framework itself monitors components, pressure via ajax. When a declarative definition of all component parameters are set via data-* attributes, including methods and events of the component. This approach allows to further separate html and javascript code. Now that would determine which component do not need to know javascript :). It is still possible to determine which component directly via javascript.
                                     </p>
+                                    -->
+                                    
+                                    <h1 class=""><?=$head_content1?></h1>
+                                    <ol class="numeric-list square-marker">
+                                        
+                                            <li>  <strong>  <span class="fg-red"><?=$content?></span> </strong>    </li>
+                                    </ol>
+                                    
                           
                                     
 
